@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="form">
+    <div class="container">
+      <div>
+        <h1 id="main-heading">Payment Form</h1>
+      </div>
+      <div>
+        <form action="">
+          <h3 class="sub-heading">User Details</h3>
+          Name : <input type="text" name="Name" id="" required />
+          <br />
+          <br />
+          <fieldset>
+            <legend>Gender</legend>
+            Male<input type="radio" value="gender" name="gender" />
+            Female<input type="radio" value="gender" name="gender" />
+            Other<input type="radio" value="gender" name="gender" />
+          </fieldset>
+          <br />
+          <br />
+          Address :
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="90%"
+            rows="6"
+            placeholder="Enter your address"
+          ></textarea>
+          <h3 class="sub-heading">Payment Details</h3>
+          Card Type :
+          <select name="cardType" id="cardType" required>
+            <option value="">--Select a card Type--</option>
+            <option value="RuPay">RuPay</option>
+            <option value="VISA">VISA</option>
+            <option value="MasterCard">MasterCard</option>
+          </select>
+          <br />
+          <br />
+          Card Number :<input type="number" name="" id="" required />
+          <br />
+          <br />
+          Expiration Date : <input type="date" name="" id="" required />
+          <br />
+          <br />
+          CVV : <input type="password" name="CVV" id="CVV" required />
+          <br />
+          <br />
+          <button type="submit" id="payNow">Pay Now</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

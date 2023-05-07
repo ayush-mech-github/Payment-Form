@@ -1,0 +1,54 @@
+.form {
+  padding: 15px;
+  margin: 0px 30px;
+}
+
+#main-heading {
+  text-align: center;
+  text-decoration: underline;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub-heading {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#payNow {
+  margin: 0px 300px;
+  top: 50%;
+  left: 50%;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#payNow:hover {
+  background-color: darkgreen;
+}
+
+input[type="textarea"],
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="select"],
+input[type="number"],
+select {
+  width: 100%;
+}
+
+fieldset {
+  background-color: white;
+  width: 97%;
+}
